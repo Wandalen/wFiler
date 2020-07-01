@@ -1,5 +1,5 @@
 
-# module::Censor - Experimental [![Status](https://github.com/Wandalen/wCensor/workflows/Test/badge.svg)](https://github.com/Wandalen/wCensor/actions?query=workflow%3ATest)
+# module::Censor [![experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/emersion/stability-badges#experimental) [![Status](https://github.com/Wandalen/wCensor/workflows/Test/badge.svg)](https://github.com/Wandalen/wCensor/actions?query=workflow%3ATest)
 
 ___
 
