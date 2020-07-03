@@ -1,5 +1,5 @@
 
-let _ = require( 'wcensor' );
+let _ = require( 'wfiler' );
 
 /**/
 

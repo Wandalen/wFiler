@@ -2,7 +2,7 @@
 
 about :
 
-  name : 'wCensor'
+  name : 'wFiler'
   description : '___'
   version : '0.3.0'
   enabled : 1
@@ -17,18 +17,18 @@ about :
   author : 'Kostiantyn Wandalen <wanalen@01.school>'
   contributors :
   - 'Kostiantyn Wandalen <wanalen@01.school>'
-  npm.name : 'wcensor'
+  npm.name : 'wfiler'
   npm.scripts :
     test : 'wtest .run proto/**'
     docgen : 'wdocgen .build proto'
 
 path :
 
-  repository : git+https:///github.com/Wandalen/wCensor.git
+  repository : git+https:///github.com/Wandalen/wFiler.git
   origins :
-   - git+https:///github.com/Wandalen/wCensor.git
-   - npm:///wcensor
-  bugtracker : https:///github.com/Wandalen/wCensor/issues
+   - git+https:///github.com/Wandalen/wFiler.git
+   - npm:///wfiler
+  bugtracker : https:///github.com/Wandalen/wFiler/issues
 
 step :
 

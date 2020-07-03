@@ -1,5 +1,5 @@
 {
-  "name" : "wcensor",
+  "name" : "wfiler",
   "version" : "0.2.6",
   "description" : "___",
   "author" : "Kostiantyn Wandalen <wanalen@01.school>",
@@ -7,12 +7,12 @@
   "main" : "proto/dwtools/___",
   "files" : [ "proto/dwtools/___", "proto/dwtools/Tools.s" ],
   "scripts" : { "test" : "wtest .run proto", "docgen" : "wdocgen .build proto" },
-  "repository" : { "type" : "git", "url" : "https://github.com/Wandalen/wCensor.git" },
+  "repository" : { "type" : "git", "url" : "https://github.com/Wandalen/wFiler.git" },
   "bugs" :
   {
-    "url" : "https://github.com/Wandalen/wCensor/issues"
+    "url" : "https://github.com/Wandalen/wFiler/issues"
   },
   "dependencies" : { "wTools" : "" },
-  "devDependencies" : { "wTesting" : "", "eslint" : "7.1.0", "wcensor" : "file:." },
+  "devDependencies" : { "wTesting" : "", "eslint" : "7.1.0", "wfiler" : "file:." },
   "keywords" : [ "wTools" ]
 }

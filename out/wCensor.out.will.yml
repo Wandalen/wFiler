@@ -1,8 +1,8 @@
 format: outwillfile-2.0
 root:
-  - wCensor.out
+  - wFiler.out
 consistency:
-  wCensor.out.will.yml: &ref_0
+  wFiler.out.will.yml: &ref_0
     hash: ba2be9cc5b63275ed3ef909d3a3fd264
     size: 36886
   ../.ex.will.yml: &ref_1
@@ -12,9 +12,9 @@ consistency:
     hash: 4bd2ad8e081461ac0a9600e6aa2abea9
     size: 4662
 module:
-  wCensor.out:
+  wFiler.out:
     about:
-      name: wCensor
+      name: wFiler
       org: noorg
       description: ___
       enabled: 1
@@ -30,7 +30,7 @@ module:
       author: Kostiantyn Wandalen <wanalen@01.school>
       contributors:
         - Kostiantyn Wandalen <wanalen@01.school>
-      npm.name: wcensor
+      npm.name: wfiler
       npm.scripts:
         test: wtest .run proto/**
         docgen: wdocgen .build proto
@@ -38,11 +38,11 @@ module:
       module.willfiles:
         criterion:
           predefined: 1
-        path: wCensor.out.will.yml
+        path: wFiler.out.will.yml
       module.common:
         criterion:
           predefined: 1
-        path: wCensor.out
+        path: wFiler.out
       module.original.willfiles:
         criterion:
           predefined: 1
@@ -63,13 +63,13 @@ module:
         criterion:
           predefined: 1
       repository:
-        path: 'git+https:///github.com/Wandalen/wCensor.git'
+        path: 'git+https:///github.com/Wandalen/wFiler.git'
       origins:
         path:
-          - 'git+https:///github.com/Wandalen/wCensor.git'
-          - 'npm:///wcensor'
+          - 'git+https:///github.com/Wandalen/wFiler.git'
+          - 'npm:///wfiler'
       bugtracker:
-        path: 'https:///github.com/Wandalen/wCensor/issues'
+        path: 'https:///github.com/Wandalen/wFiler/issues'
       in:
         path: .
       out:
@@ -781,12 +781,12 @@ module:
           content: proto
           export: 1
     consistency:
-      wCensor.out.will.yml: *ref_0
+      wFiler.out.will.yml: *ref_0
       ../.ex.will.yml: *ref_1
       ../.im.will.yml: *ref_2
   ../:
     about:
-      name: wCensor
+      name: wFiler
       org: noorg
       description: ___
       enabled: 1
@@ -802,7 +802,7 @@ module:
       author: Kostiantyn Wandalen <wanalen@01.school>
       contributors:
         - Kostiantyn Wandalen <wanalen@01.school>
-      npm.name: wcensor
+      npm.name: wfiler
       npm.scripts:
         test: wtest .run proto/**
         docgen: wdocgen .build proto
@@ -822,7 +822,7 @@ module:
       module.peer.willfiles:
         criterion:
           predefined: 1
-        path: out/wCensor.out.will.yml
+        path: out/wFiler.out.will.yml
       module.peer.in:
         criterion:
           predefined: 1
@@ -835,13 +835,13 @@ module:
         criterion:
           predefined: 1
       repository:
-        path: 'git+https:///github.com/Wandalen/wCensor.git'
+        path: 'git+https:///github.com/Wandalen/wFiler.git'
       origins:
         path:
-          - 'git+https:///github.com/Wandalen/wCensor.git'
-          - 'npm:///wcensor'
+          - 'git+https:///github.com/Wandalen/wFiler.git'
+          - 'npm:///wfiler'
       bugtracker:
-        path: 'https:///github.com/Wandalen/wCensor/issues'
+        path: 'https:///github.com/Wandalen/wFiler/issues'
       in:
         path: .
       out:
@@ -1458,4 +1458,4 @@ module:
       ../.im.will.yml:
         hash: 4bd2ad8e081461ac0a9600e6aa2abea9
         size: 4662
-      wCensor.out.will.yml: *ref_0
+      wFiler.out.will.yml: *ref_0
