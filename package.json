@@ -1,6 +1,6 @@
 {
   "name": "wfiler",
-  "version": "0.2.91",
+  "version": "0.2.92",
   "description": "___",
   "author": "Kostiantyn Wandalen <wanalen@01.school>",
   "license": "MIT",
@@ -21,11 +21,11 @@
     "url": "https://github.com/Wandalen/wFiler/issues"
   },
   "dependencies": {
-    "wTools": "gamma"
+    "wTools": "delta"
   },
   "devDependencies": {
     "eslint": "7.1.0",
-    "wTesting": "gamma",
+    "wTesting": "delta",
     "wfiler": "file:."
   },
   "keywords": [
