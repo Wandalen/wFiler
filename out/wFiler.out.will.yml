@@ -6,8 +6,8 @@ consistency:
     hash: 92e271849ecaa0d242fa95add6770f46
     size: 1649
   ../.im.will.yml: &ref_1
-    hash: 2c1640689421b71e488e2e5a0925fd24
-    size: 4675
+    hash: 1199c9b08cbfaabdbe52a99636d8977a
+    size: 4679
 module:
   wFiler.out:
     about:
@@ -138,7 +138,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - ../proto/wtools/Tools.s
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wfiler
       exported.dir.proto.export:
         criterion:
@@ -155,9 +155,9 @@ module:
           - ../proto
           - ../proto/Integration.test.ss
           - ../proto/node_modules
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wfiler
           - ../proto/wtools
-          - ../proto/wtools/Tools.s
           - ../proto/wtools/abase
           - ../proto/wtools/amid
           - ../proto/wtools/atop
@@ -890,7 +890,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - proto/wtools/Tools.s
+          - proto/node_modules/Tools
           - proto/node_modules/wfiler
     submodule:
       wTools:
@@ -1438,5 +1438,5 @@ module:
         hash: 92e271849ecaa0d242fa95add6770f46
         size: 1649
       ../.im.will.yml:
-        hash: 2c1640689421b71e488e2e5a0925fd24
-        size: 4675
+        hash: 1199c9b08cbfaabdbe52a99636d8977a
+        size: 4679
